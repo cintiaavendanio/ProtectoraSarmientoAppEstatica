@@ -1,98 +1,127 @@
 import { useState, useRef } from 'react'
 import './App.css'
+import alan from '../src/assets/alan.png'
+import almendra from '../src/assets/almendra.png'
+import annieyhallie from '../src/assets/annieyhallie.png'
+import asiaa from '../src/assets/asiaa.png'
+import cane from '../src/assets/cane.png'
+import carozo from '../src/assets/carozo.png'
+import cata from '../src/assets/cata.png'
+import coli from '../src/assets/coli.png'
+import cora from '../src/assets/cora.png'
+import feli from '../src/assets/feli.png'
+import foster from '../src/assets/foster.png'
+import freyayodin from '../src/assets/freyayodin.png'
+import jairoyvenecia from '../src/assets/jairoyvenecia.png'
+import kaiser from '../src/assets/kaiser.png'
+import locky from '../src/assets/locky.png'
+import lunaypaton from '../src/assets/lunaypaton.png'
+import marycielo from '../src/assets/marycielo.png'
+import mikee from '../src/assets/mikee.png'
+import mora from '../src/assets/mora.png'
+import nanuk from '../src/assets/nanuk.png'
+import oliver from '../src/assets/oliver.png'
+import pancho from '../src/assets/pancho.png'
+import perla from '../src/assets/perla.png'
+import pol from '../src/assets/pol.png'
+import rocky from '../src/assets/rocky.png'
+import sandroylennon from '../src/assets/sandroylennon.png'
+import thor from '../src/assets/thor.png'
+import vicky from '../src/assets/vicky.png'
+import alegra from '../src/assets/alegra.png'
 
 function Sarmiento() {
   const imagesData = [
     {
-      url: '../src/assets/alan.png'
+      url: alan
     },
     {
-      url: '../src/assets/almendra.png'
+      url: almendra
     },
     {
-      url: '../src/assets/annieyhallie.png'
+      url: annieyhallie
     },
     {
-      url: '../src/assets/asiaa.png'
+      url: asiaa
     },
     {
-      url: '../src/assets/cane.png'
+      url: cane
     },
     {
-      url: '../src/assets/carozo.png'
+      url: carozo
     },
     {
-      url: '../src/assets/cata.png'
+      url: cata
     },
     {
-      url: '../src/assets/coli.png'
+      url: coli
     },
     {
-      url: '../src/assets/cora.png'
+      url: cora
     },
     {
-      url: '../src/assets/feli.png'
+      url: feli
     },
     {
-      url: '../src/assets/foster.png'
+      url: foster
     },
     {
-      url: '../src/assets/freya y odin.png'
+      url: freyayodin
     },
     {
-      url: '../src/assets/friynoah.png'
+      url: friynoah
     },
     {
-      url: '../src/assets/jairo y venecia.png'
+      url: jairoyvenecia
     },
     {
-      url: '../src/assets/kaiser.png'
+      url: kaiser
     },
     {
-      url: '../src/assets/locky.png'
+      url: locky
     },
     {
-      url: '../src/assets/luna y paton.png'
+      url: lunaypaton
     },
     {
-      url: '../src/assets/mar y cielo.png'
+      url: marycielo
     },
     {
-      url: '../src/assets/mikee.png'
+      url: mikee
     },
     {
-      url: '../src/assets/mora.png'
+      url: mora
     },
     {
-      url: '../src/assets/nanuk.png'
+      url: nanuk
     },
     {
-      url: '../src/assets/oliver.png'
+      url: oliver
     },
     {
-      url: '../src/assets/pancho.png'
+      url: pancho
     },
     {
-      url: '../src/assets/perla.png'
+      url: perla
     },
     {
-      url: '../src/assets/pol.png'
+      url: pol
     },
     {
-      url: '../src/assets/rocky.png'
+      url: rocky
     },
     {
-      url: '../src/assets/sandroylennon.png'
+      url: sandroylennon
     },
     {
-      url: '../src/assets/thor.png'
+      url: thor
     },
     {
-      url: '../src/assets/vicky.png'
+      url: vicky
     },
 
     {
-      url: '../src/assets/alegra.png'
+      url: alegra
     }
   ]
   return (
@@ -112,12 +141,12 @@ function App() {
 
   const handleInfoClick = () => {
     setShowInfo(true)
-    infoRef.current.scrollIntoView({ behavior: 'smooth' })
+    infoRef.current.scrollIntoView({ behavior: smooth })
   }
 
   const handleSarmientoClick = () => {
     setShowSarmiento(true)
-    sarmientoRef.current.scrollIntoView({ behavior: 'smooth' })
+    sarmientoRef.current.scrollIntoView({ behavior: smooth })
   }
 
   return (
@@ -139,10 +168,7 @@ function App() {
           </div>
           <div>
             <a href='https://www.instagram.com/protectorasarmiento_oficial/'>
-              <img
-                src='https://ugc.production.linktr.ee/b7Wc9tTRceWxB9ymlT69_ARbdB8Ak69T85Vtz?io=true&size=avatar-v1_0'
-                alt=''
-              />
+              <img src='https://ugc.production.linktr.ee/b7Wc9tTRceWxB9ymlT69_ARbdB8Ak69T85Vtz?io=true&size=avatar-v1_0' />
             </a>
           </div>
         </div>
