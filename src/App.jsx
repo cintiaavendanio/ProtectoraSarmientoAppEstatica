@@ -142,12 +142,12 @@ function App() {
 
   const handleInfoClick = () => {
     setShowInfo(true)
-    infoRef.current.scrollIntoView({ behavior: smooth })
+    infoRef.current.scrollIntoView({ behavior: 'smooth' })
   }
 
   const handleSarmientoClick = () => {
     setShowSarmiento(true)
-    sarmientoRef.current.scrollIntoView({ behavior: smooth })
+    sarmientoRef.current.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
