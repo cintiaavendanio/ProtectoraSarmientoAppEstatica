@@ -1,0 +1,74 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+body {
+  background-image: url('../src/assets/1920x1080.png');
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navBar {
+  display: flex;
+  flex-direction: column;
+}
+.containerButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.button {
+  background-color: #80c5a4;
+  padding: 10px;
+}
+.navBar h1 {
+  color: #f29db3;
+  font-weight: 900;
+  font-family: Abril Fatface;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.containerInfo {
+  border-radius: 10px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.datosCont {
+  background-color: #80c5a4;
+  width: 100vw;
+}
+.datosCont ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+}
+.datosCont a {
+  background-color: #f29db3;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+.datosConta:hover {
+  background-color: #c55875;
+}
+.containerImg {
+  width: 100vw;
+  border-radius: 10px;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
